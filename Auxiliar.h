@@ -42,32 +42,6 @@ void Auxiliar::ocultarCursor(){
 }
 
 
-//FUNCION QUE DIBUJA LOS LIMITES EN PANTALLA.
-/*
-void Auxiliar::pintarLimites(){
-
-      for(int x = 2;x<176;x++){
-        gotoxy(x,3);printf("%c",205);   //DEJO FIJO y Y AUMENTO DE A UNO EN x EN LA PARTE SUPERIOR.
-        gotoxy(x,45);printf("%c",205);   //DEJO FIJO y Y AUMENTO DE A UNO EN x EN LA PARTE INFERIOR.
-      }
-
-
-       for(int y = 4;y<45;y++){
-        gotoxy(1,y);printf("%c",186);   //DEJO FIJO x Y AUMENTO DE A UNO EN y A LA IZQUIERDA.
-        gotoxy(176,y);printf("%c",186);   //DEJO FIJO x Y AUMENTO DE A UNO EN y A LA DERECHA.
-      }
-
-    //AHORA PINTAMOS LAS ESQUINAS
-
-
-    gotoxy(1,3); printf("%c",201);   //ESQUINA SUPERIOR IZQUIERDA.
-    gotoxy(1,45); printf("%c",200);   //ESQUINA INFERIOR IZQUIERDA.
-    gotoxy(176,3); printf("%c",187);   //ESQUINA SUPERIOR DERECHA.
-    gotoxy(176,45); printf("%c",188);   //ESQUINA INFERIOR DERECHA.
-
-
-}
-*/
 
 void Auxiliar::pintarLimites(){
 

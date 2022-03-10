@@ -53,18 +53,8 @@ void Celular::borrar(){
 
 bool Celular::colisionoHijo(Hijo& hijo){
 
-    /*
-    if(x == hijo.X() && y == hijo.Y()){
 
-        Sleep(1000);
-        return true;
-
-    }
-
-     return false;
-     */
-
-     if((x == hijo.X() + 1 && y == hijo.Y()) || (x == hijo.X() - 1 && y == hijo.Y()) || (x == hijo.X() && y == hijo.Y() + 1) || (x == hijo.X() && y == hijo.Y() - 1)){
+    if((x == hijo.X() + 1 && y == hijo.Y()) || (x == hijo.X() - 1 && y == hijo.Y()) || (x == hijo.X() && y == hijo.Y() + 1) || (x == hijo.X() && y == hijo.Y() - 1)){
 
         //Sleep(1000);
         return true;

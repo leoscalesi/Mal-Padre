@@ -16,9 +16,6 @@ class Bala{
       int Y(){ return y;}
       void mover();
       bool detectaLimiteDerechoBala();
-      //void colision(Hijo&);
-      //void aumentaVelocidad(); //CONTROLO LA VELOCIDAD USANDO COMO CRITERIO EL MODULO DEL PUNTAJE.
-      //void mover(int);
 
 };
 
@@ -48,54 +45,6 @@ bool Bala::detectaLimiteDerechoBala(){
      return false;
 }
 
-/*
-void Bala::colision(Hijo& hijo){
 
-
-
-    if(x == hijo.X()){    //CONDICION QUE EVALUA TENIENDO EN CUENTA EL TAMAÑO DE LA NAVE CUANDO HAY COLISION CON EL ASTEROIDE
-
-          //Sleep(2000);
-          hijo.morir();
-
-    }
-
-
-
-}
-
-*/
-
-/*
-void Bala::aumentaVelocidad(){
-
-
-      gotoxy(x,y); printf(" ");   //LO PRIMERO QUE HAGO ES BORRAR
-
-      //if(y > 4) y--;    //PERMITO QUE SIGA SUBIENDO SI NO SOBREPASA EL LIMITE SUPERIOR
-      //PERO AL AGREGAR EL METODO detectaLimiteSuperiorBala() SE PUEDE OMITIR ESE if Y QUEDARIA SOLO:
-
-      x = x*2;
-
-      //DIBUJO LA BALA
-      gotoxy(x,y); printf("%c",223);
-
-}
-*/
-/*
-void Bala::mover(int aumento){
-
-      gotoxy(x,y); printf(" ");   //LO PRIMERO QUE HAGO ES BORRAR
-
-      //if(y > 4) y--;    //PERMITO QUE SIGA SUBIENDO SI NO SOBREPASA EL LIMITE SUPERIOR
-      //PERO AL AGREGAR EL METODO detectaLimiteSuperiorBala() SE PUEDE OMITIR ESE if Y QUEDARIA SOLO:
-
-      x += aumento;
-
-      //DIBUJO LA BALA
-      gotoxy(x,y); printf("%c",223);
-
-}
-*/
 
 #endif // BALA_H_INCLUDED
