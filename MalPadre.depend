@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1643381248 source:c:\users\user\desktop\malpadre\malpadre\main.cpp
+	<iostream>
+	"Menu.h"
+
+1646336873 c:\users\user\desktop\malpadre\malpadre\menu.h
+	<cstdlib>
+	"Juego.h"
+
+1646425830 c:\users\user\desktop\malpadre\malpadre\juego.h
+	<cstdlib>
+	<ctime>
+	<list>
+	"rlutil.h"
+	"Celular.h"
+	"Auxiliar.h"
+	"Padre.h"
+	"Hijo.h"
+	"Bala.h"
+
+1643382026 c:\users\user\desktop\malpadre\malpadre\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1644346730 c:\users\user\desktop\malpadre\malpadre\celular.h
+	"Auxiliar.h"
+	"Hijo.h"
+
+1646336873 c:\users\user\desktop\malpadre\malpadre\auxiliar.h
+	<windows.h>
+
+1646425400 c:\users\user\desktop\malpadre\malpadre\padre.h
+	"Auxiliar.h"
+
+1646425157 c:\users\user\desktop\malpadre\malpadre\hijo.h
+	"Auxiliar.h"
+	<conio.h>
+
+1646425598 c:\users\user\desktop\malpadre\malpadre\bala.h
+	"Hijo.h"
+
