@@ -8,4 +8,6 @@ disparar proyectiles, con la intencion de que el hijo la corte con el celular...
 
 Adicionalmente, hay un dialogo entre padre e hijo, de acuerdo a una logica establecida, cuando el hijo agarra un nuevo celular.
 
+El juego finaliza cuando un proyectil impacta sobre el hijo, al tiempo de que este exclama... MAL PADREEEE!!!!!
+
 Este juego es el primero en el que desarrolle todo desde cero, tanto la logica como los diseños usando caracteres ASCII.
